@@ -1,0 +1,181 @@
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/pagestyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="index.html">Home</a></li>
+        
+        <li><a href="branches.html">Branch</a></li>
+        <li><a href="contact.html">contact</a></li>
+         <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg ">
+ 
+<div class="container">
+<div class="row spacer" >
+<div class="col-md-4 " >
+
+<div class="panel  panel-danger bord">
+  <div class="panel-heading">FIND NEAR LAPTOP SERVICE CENTER </div>
+  <div class="panel-body main">
+  <div class="panel panel-success" >
+  <div class="panel-heading"><input type="text" id="mapsearch"  class="input" size="35"> </div>
+  <div class="panel-body"> <button   class='reload mapbtn' onclick="reload()"> Clear results</button> </div>
+  
+  
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-8   ">
+
+<img src="images/gbs.jpg"  class="img-responsive">
+
+
+
+ </div>
+
+
+</div>
+
+</div>
+</div>
+<div class="container-fluid  ">
+<div class="container ">
+<div class="row bg2">
+<div class="col-md-12">
+
+
+
+<div class="col-md-8 maporg">
+<div class="well well-sm" align="center"><h1>Nearest Laptop Service Branch </h1>   </div>
+
+<div id="map-canvas" ></div>
+
+</div>
+
+<div class="col-md-4 maporg2 ">
+<div class="well well-sm" align="center"><h1> Address & Details</h1>   </div>
+<div class="panel-body allbranch">
+<h3 class="branch"> <i class="fas fa-map-pin"></i> &nbsp; OMR </h3>
+
+<p class="branchad">No: 390a, nehru nagar, first main road, Old Mahabalipuram Road,</p>
+<p class="branchad">Kandhancavadi, Chennai </p>
+<p class="branchad">Tamil Nadu, Pincode- 600 096.</p>
+ <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Velachery  </h3>
+  <p class="branchad"> Shop No. 87/5, Plot No 24, Amsaveni complex,   </p>
+ <p class="branchad">Opposite Murugan Kalyanamandabam, </p>
+ <p class="branchad"> Rajalakshmi Nagar, Velachery,Chennai-600042.</p>
+  <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Adyar  </h3>
+  <p class="branchad"> No: 60/2, LB Road,    </p>
+ <p class="branchad">(Landmark : Opp to TNHB Complex ), </p>
+ <p class="branchad"> Adyar,Chennai, Tamil Nadu 600020.</p>
+  <hr>
+    <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Madipakkam  </h3>
+  <p class="branchad"> Defence Colony, Medavakkam Main Rd,    </p>
+ <p class="branchad">Senthuran Colony, Subramanian Nagar, </p>
+ <p class="branchad">  Madipakkam, Chennai, Tamil Nadu 600091.</p>
+  <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Tambaram  </h3>
+  <p class="branchad"> 35, Rajaji Road, west Tambaram Upstairs More Super Market & Next to Vasanth & Co,    </p>
+ <p class="branchad">West Tambaram, Tambaram  </p>
+ <p class="branchad">  Chennai, Tamil Nadu 600045.</p>
+  <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Chromepet  </h3>
+  <p class="branchad"> 144, Opposite to Vettri Theatre, Grand Southern Trunk Road, </p>
+ <p class="branchad">Lakshmi Nagar, Santhi Nagar,  </p>
+ <p class="branchad">   Chromepet, Chennai, Tamil Nadu 600044.</p>
+  <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; KK Nagar </h3>
+  <p class="branchad"> # 1070 A, Munuswamy Salai,  </p>
+ <p class="branchad">KK Nagar West,   </p>
+ <p class="branchad">   KK Nagar, Chennai, Tamil Nadu 600078.</p>
+  <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Anna Nagar </h3>
+  <p class="branchad">AA77, 4th Avenue  </p>
+ <p class="branchad">Opposite to NAC Jewellery, Shanthi Colony,   </p>
+ <p class="branchad"> Anna Nagar, Chennai, Tamil Nadu 600040.</p>
+  <hr>
+    <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; Porur </h3>
+  <p class="branchad">22/A, Arcot Road,  </p>
+ <p class="branchad"> Opposite to BSNL Office Near Thalapakatti Hotel,   </p>
+ <p class="branchad">  Porur,Tamil Nadu 600116.</p>
+  <hr>
+  <h3 class="branch"> <i class="fas fa-map-pin"></i>  &nbsp; OMR  </h3>
+ <p class="branchad"> No. 5/357, Old Mahabalipuram Road, </p>
+ <p class="branchad">Thoraipakkam, Chennai, </p>
+ <p class="branchad">Tamil Nadu- 600 097</p>
+ <hr>
+ </div>
+
+</div>
+</div>
+</diV>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 footer">
+<h3> Branches</h3>
+<p> <a href="laptop-service-center-in-omr-chennai.html">OMR </a> | <a href="laptop-service-center-in-velachery-chennai.html">Velachery </a> | <a href="laptop-service-center-in-kknagar-chennai.html">KK nagar </a> |
+
+<a href="laptop-service-center-in-annanagar-chennai.html"> Anna Nagar </a> | <a href="laptop-service-center-in-tambaram-chennai.html">Tambaram </a> | <a href="laptop-service-center-in-chrompet-chennai.html">Chorompet </a>
+
+| <a href="laptop-service-center-in-porur-chennai.html">Porur</a> | <a href="laptop-service-center-in-madipakkam-chennai.html"> Madipakkam </a> | <a href="laptop-service-center-in-adyar-chennai.html"> Adyar</a>
+
+| <a href="laptop-service-center-in-thoraipakkam-chennai.html">Thoraipakkam </a></p>
+
+<br>
+
+<div class="copyrights">
+@copyrights2018gbslaptopservices 
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+<script src="script/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAigFrYnPLyAWhYtjct0kY0orefA3noK8w&callback=initMap&libraries=places&region=IN"></script>
+</body>
+
+
+
+</html>

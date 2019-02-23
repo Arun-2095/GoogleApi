@@ -1,0 +1,154 @@
+
+
+
+
+hr {
+	color:#C3C3C3;
+	
+	
+}
+
+
+.branchhead{
+	margin:5px;
+	padding-bottom:20px;
+	
+	
+	
+}
+
+.branch{
+	margin-top:25px;
+	background-color:#C3C3C3;
+	padding:5px;
+		
+}
+.branchad {
+	font-size:16px;
+	
+}
+
+
+.footer{
+	background-color:#36260f;
+	color:white;
+	
+}
+
+.footer h3{
+	margin:5px;
+	text-decoration:underline;
+	padding:5px;
+	
+}
+.footer a {
+	color:white;
+	text-decoration:none;
+	padding:3px 9px;
+	
+}
+
+.copyrights{
+	text-align:center;
+	margin-bottom:5px;
+}
+
+@media (max-width:1199px){
+	
+	#mapsearch{
+		width:90%;
+	}
+#map-canvas{
+		margin:10px 5px 0px 10px;
+		
+		
+	}
+	.maporg2 .well{
+		padding:22px 0px;
+		
+	}
+	.maporg2 .well h1{
+		font-size:32px;
+			
+		margin: 9px;
+	}
+}
+
+@media (max-width:990px){
+	
+	.maporg{
+		border-right:  2px solid rgba(248,248,248, 0.9);
+		padding:0px;
+		
+	}
+	#map-canvas{
+		margin:10px 5px;
+		width:auto;
+		
+	}
+	.maporg2{
+		border-left:  2px solid rgba(248,248,248, 0.9);
+		margin:5px;
+		
+	}
+}
+
+@media (max-width:800px){
+	.maporg{
+		border-right:  2px solid rgba(248,248,248, 0.9);
+		padding:0px;
+		
+	}
+	
+	#map-canvas{
+		margin:10px 5px;
+		width:auto;
+	}
+	.maporg2{
+		border-left:  2px solid rgba(248,248,248, 0.9);
+		margin:5px;
+		
+	}
+	
+	.bmap{
+		width:98%;
+	}
+	
+	
+}
+
+@media (max-width:600px){
+	
+	
+	.maporg{
+		border-right:  2px solid rgba(248,248,248, 0.9);
+		padding:0px;
+		
+	}
+	
+	.maporg2{
+		border-left:  2px solid rgba(248,248,248, 0.9);
+		margin:5px;
+		
+	}
+	
+	#map-canvas{
+		margin:10px 5px;
+		width:250px;
+	}
+	
+	
+	.footer h3{
+		text-align:center;
+		padding:10px;
+	}
+	.copyrights{
+		padding:5px;
+	}
+	.bmap{
+		width:98%;
+	}
+	
+}
+
+
